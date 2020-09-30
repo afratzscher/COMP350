@@ -1,4 +1,3 @@
-//TO DO: CHECK (and check on mcgill server)
 #include <stdio.h>
 // use "float" type because want single precision
 

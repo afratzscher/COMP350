@@ -1,4 +1,3 @@
-//TO DO: CHECK (and check on mcgill server)
 #include <stdio.h>
 #include <stdlib.h>
 int I = 0; // I = 0 initially
