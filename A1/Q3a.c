@@ -7,12 +7,14 @@ int main(){
 	float val = pow(M_PI, 2)/6;
 	printf("pi^2/6 value = %f\n", val);
 
-	// while (result + (1/ pow(n+1, 2)) > result){
-	while(pow(n+1, -2) > 0){
+	while (result + (1/ pow(n+1, 2)) > result){
 		n++;
 		result += (1/pow(n,2));
 	}
-	printf("n = %d, result = %20.15f\n", n, result);
-	printf("error = %20.15f\n", val-result);
+	printf("n = %d, result = %e\n", n, result);
+	printf("error = %e\n", val-result);
+	printf("n+1 = %d, result = %e\n", n+1, result + (1/ pow(n+1, 2)));
+	printf("difference between n and n+1 = %e\n", result + (1/pow(n+1, 2)) - result);
 	return 0;
 }
+

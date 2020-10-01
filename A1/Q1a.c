@@ -19,6 +19,6 @@ int main()
 	for (int j = k+1; j <= N; j++){
 		X *= q;
 	}
-	printf("%e\n", X); // prints result in decimal exponent form
+	printf("X(%e, %d, %d) = %e\n", p, k, N, X); // prints result in decimal exponent form
 	return 0; // returns 0 if successful
 }

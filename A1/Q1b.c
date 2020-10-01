@@ -61,6 +61,7 @@ int main()
 		}
 	}
 	X = X * B;
-	printf("%e\n", X); // prints result 
+	printf("X(%f, %d, %d) = %e\n", p, k, N, X); // prints result in decimal exponent form
 	return 0; // returns 0 if successful
 }
+
